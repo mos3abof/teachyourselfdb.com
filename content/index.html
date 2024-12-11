@@ -1,0 +1,332 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://dev.teachyourselfdb.com/main.css">
+    <link rel="icon" href="https://www.getzola.org/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <title>  | Teach Yourself Database Systems </title>
+</head>
+<body>
+
+<script>
+        fetch('https://api.github.com/repos/mos3abof/teachyourselfdb/releases/latest')
+            .then((response) => {
+                return response.json();
+            })
+            .then((data) => {
+                let release_name = data.name;
+                let html_url = data.html_url;
+                release.innerHTML = `<a href='${html_url}'>${release_name}</a>`;
+            });
+    </script>
+<main>
+    
+    <nav>
+            <a href="https:&#x2F;&#x2F;dev.teachyourselfdb.com">
+                        <img src="https://teachyourselfdb.com/logo.svg" alt="logo"/>
+                    </a>
+                <div id="release"></div>
+            <a href="javascript:void(0);" onclick="burger()" id="mobile" class="ms-Icon--GlobalNavButton"></a>
+            <div id="trees">
+                <input class="tree-toggle" type="checkbox" id="teach-yourself-database-systems"
+                           checked/>
+                    <label class="tree-toggle-label"
+                           for="teach-yourself-database-systems">Teach Yourself Database Systems</label>
+
+                    <ul class="subtree">
+                        <li >
+                                <a href="https://dev.teachyourselfdb.com/content/taxonomies/">Taxonomies</a>
+                            </li>
+
+                            <li >
+                                <a href="https://dev.teachyourselfdb.com/content/multilingual/">Multilingual sites</a>
+                            </li>
+
+                            <li >
+                                <a href="https://dev.teachyourselfdb.com/content/syntax-highlighting/">Syntax Highlighting</a>
+                            </li>
+
+                            <li >
+                                <a href="https://dev.teachyourselfdb.com/content/sass/">Sass</a>
+                            </li>
+
+                            <li >
+                                <a href="https://dev.teachyourselfdb.com/content/page/">Page</a>
+                            </li>
+
+                            <li >
+                                <a href="https://dev.teachyourselfdb.com/content/overview/">Overview</a>
+                            </li>
+
+                            <li >
+                                <a href="https://dev.teachyourselfdb.com/content/shortcodes/">Shortcodes</a>
+                            </li>
+
+                            <li >
+                                <a href="https://dev.teachyourselfdb.com/content/linking/">Internal links &amp; deep linking</a>
+                            </li>
+
+                            <li >
+                                <a href="https://dev.teachyourselfdb.com/content/search/">Search</a>
+                            </li>
+
+                            <li >
+                                <a href="https://dev.teachyourselfdb.com/content/section/">Section</a>
+                            </li>
+
+                            <li >
+                                <a href="https://dev.teachyourselfdb.com/content/table-of-contents/">Table of Contents</a>
+                            </li>
+
+                            </ul>
+                <input class="tree-toggle" type="checkbox" id="getting-started"
+                           />
+                    <label class="tree-toggle-label"
+                           for="getting-started">Getting Started</label>
+
+                    <ul class="subtree">
+                        <li >
+                                <a href="https://dev.teachyourselfdb.com/getting-started/overview/">Overview</a>
+                            </li>
+
+                            <li >
+                                <a href="https://dev.teachyourselfdb.com/getting-started/installation/">Installation</a>
+                            </li>
+
+                            <li >
+                                <a href="https://dev.teachyourselfdb.com/getting-started/cli-usage/">CLI usage</a>
+                            </li>
+
+                            <li >
+                                <a href="https://dev.teachyourselfdb.com/getting-started/directory-structure/">Directory structure</a>
+                            </li>
+
+                            <li >
+                                <a href="https://dev.teachyourselfdb.com/getting-started/configuration/">Configuration</a>
+                            </li>
+
+                            </ul>
+                <input class="tree-toggle" type="checkbox" id="templates"
+                           />
+                    <label class="tree-toggle-label"
+                           for="templates">Templates</label>
+
+                    <ul class="subtree">
+                        <li >
+                                <a href="https://dev.teachyourselfdb.com/templates/overview/">Overview</a>
+                            </li>
+
+                            <li >
+                                <a href="https://dev.teachyourselfdb.com/templates/pages-sections/">Sections and Pages</a>
+                            </li>
+
+                            <li >
+                                <a href="https://dev.teachyourselfdb.com/templates/pagination/">Pagination</a>
+                            </li>
+
+                            <li >
+                                <a href="https://dev.teachyourselfdb.com/templates/taxonomies/">Taxonomies</a>
+                            </li>
+
+                            <li >
+                                <a href="https://dev.teachyourselfdb.com/templates/feeds/">Feeds</a>
+                            </li>
+
+                            <li >
+                                <a href="https://dev.teachyourselfdb.com/templates/sitemap/">Sitemap</a>
+                            </li>
+
+                            <li >
+                                <a href="https://dev.teachyourselfdb.com/templates/robots/">Robots.txt</a>
+                            </li>
+
+                            <li >
+                                <a href="https://dev.teachyourselfdb.com/templates/404/">404 error page</a>
+                            </li>
+
+                            <li >
+                                <a href="https://dev.teachyourselfdb.com/templates/archive/">Archive</a>
+                            </li>
+
+                            </ul>
+                <input class="tree-toggle" type="checkbox" id="themes"
+                           />
+                    <label class="tree-toggle-label"
+                           for="themes">Themes</label>
+
+                    <ul class="subtree">
+                        <li >
+                                <a href="https://dev.teachyourselfdb.com/themes/overview/">Overview</a>
+                            </li>
+
+                            <li >
+                                <a href="https://dev.teachyourselfdb.com/themes/installing-and-using-themes/">Installing &amp; using themes</a>
+                            </li>
+
+                            <li >
+                                <a href="https://dev.teachyourselfdb.com/themes/creating-a-theme/">Creating a theme</a>
+                            </li>
+
+                            <li >
+                                <a href="https://dev.teachyourselfdb.com/themes/extending-a-theme/">Extending a theme</a>
+                            </li>
+
+                            </ul>
+                <input class="tree-toggle" type="checkbox" id="deployment"
+                           />
+                    <label class="tree-toggle-label"
+                           for="deployment">Deployment</label>
+
+                    <ul class="subtree">
+                        <li >
+                                <a href="https://dev.teachyourselfdb.com/deployment/overview/">Overview</a>
+                            </li>
+
+                            <li >
+                                <a href="https://dev.teachyourselfdb.com/deployment/netlify/">Netlify</a>
+                            </li>
+
+                            <li >
+                                <a href="https://dev.teachyourselfdb.com/deployment/github-pages/">GitHub Pages</a>
+                            </li>
+
+                            <li >
+                                <a href="https://dev.teachyourselfdb.com/deployment/gitlab-pages/">GitLab Pages</a>
+                            </li>
+
+                            <li >
+                                <a href="https://dev.teachyourselfdb.com/deployment/vercel/">Vercel</a>
+                            </li>
+
+                            </ul>
+                </div>
+        </nav>
+    <article>
+
+        <div id="wrap">
+            
+    <h1 id="teach-yourself-database-systems">Teach Yourself Database Systems&nbsp;<a class="anchor" href="#teach-yourself-database-systems">&#xE732;</a></h1>
+<p>A raw draft roadmap to diving deep into database systems. This is a work in progress, and is subject to a lot of
+changes.</p>
+<h2 id="foundational-concepts">Foundational Concepts&nbsp;<a class="anchor" href="#foundational-concepts">&#xE732;</a></h2>
+<ul>
+<li>Start with understanding the basic principles of database management systems (DBMS)</li>
+<li>Learn about data models: relational, document, key-value, graph, and columnar models</li>
+<li>Study fundamental database design concepts, including normalization and data integrity</li>
+</ul>
+<h2 id="relational-databases-deep-dive">Relational Databases Deep Dive&nbsp;<a class="anchor" href="#relational-databases-deep-dive">&#xE732;</a></h2>
+<ul>
+<li>Master SQL in depth (advanced querying, window functions, complex joins)</li>
+<li>Study relational algebra and relational calculus</li>
+<li>Learn about B-tree and indexing strategies</li>
+<li>Learn about LSM trees</li>
+<li>Understand ACID properties and transaction management</li>
+<li>Explore query optimization techniques</li>
+</ul>
+<h2 id="database-design">Database Design&nbsp;<a class="anchor" href="#database-design">&#xE732;</a></h2>
+<ul>
+<li>Learn entity-relationship (ER) modeling</li>
+<li>Practice database schema design</li>
+<li>Study normalization forms (1NF, 2NF, 3NF, BCNF)</li>
+<li>Understand denormalization and when to apply it</li>
+</ul>
+<h2 id="advanced-database-concepts">Advanced Database Concepts&nbsp;<a class="anchor" href="#advanced-database-concepts">&#xE732;</a></h2>
+<ul>
+<li>Distributed database systems</li>
+<li>Sharding and horizontal scaling</li>
+<li>Replication and consistency models</li>
+<li>CAP theorem</li>
+<li>NoSQL databases and their use cases</li>
+<li>NewSQL and hybrid database approaches</li>
+</ul>
+<h2 id="performance-and-optimization">Performance and Optimization&nbsp;<a class="anchor" href="#performance-and-optimization">&#xE732;</a></h2>
+<ul>
+<li>Query performance tuning</li>
+<li>Indexing strategies</li>
+<li>Caching mechanisms</li>
+<li>Database benchmarking</li>
+<li>Understanding execution plans</li>
+<li>Profiling and optimization techniques</li>
+</ul>
+<h2 id="practical-implementation">Practical Implementation&nbsp;<a class="anchor" href="#practical-implementation">&#xE732;</a></h2>
+<p>Choose 2-3 database systems to deeply learn</p>
+<ul>
+<li>PostgreSQL (for advanced relational features)</li>
+<li>MySQL / MariaDB</li>
+<li>MongoDB (for document databases)</li>
+<li>Cassandra (for wide-column stores)</li>
+<li>Redis (for key-value stores)</li>
+</ul>
+<h2 id="emerging-technologies">Emerging Technologies&nbsp;<a class="anchor" href="#emerging-technologies">&#xE732;</a></h2>
+<p>Learn about:</p>
+<ul>
+<li>Time-series databases</li>
+<li>Graph databases</li>
+<li>In-memory databases</li>
+<li>Blockchain databases</li>
+<li>Machine learning-integrated databases</li>
+</ul>
+<h2 id="recommended-learning-resources">Recommended Learning Resources&nbsp;<a class="anchor" href="#recommended-learning-resources">&#xE732;</a></h2>
+<h3 id="books">Books:&nbsp;<a class="anchor" href="#books">&#xE732;</a></h3>
+<ul>
+<li>"Designing Data-Intensive Applications" by Martin Kleppmann</li>
+<li>"Database System Concepts" by Silberschatz, Korth, and Sudarshan</li>
+<li>"Principles of Database Systems" by Ullman and Widom</li>
+</ul>
+<h3 id="online-courses">Online Courses:&nbsp;<a class="anchor" href="#online-courses">&#xE732;</a></h3>
+<ul>
+<li>Stanford's Database course on Coursera</li>
+<li>Carnegie Mellon's Advanced Database Systems course</li>
+<li>MIT's Database Systems course on edX</li>
+</ul>
+<h2 id="hands-on-practice">Hands-on Practice&nbsp;<a class="anchor" href="#hands-on-practice">&#xE732;</a></h2>
+<ul>
+<li>Build personal projects</li>
+<li>Contribute to open-source database projects</li>
+<li>Set up your own database infrastructure</li>
+<li>Practice with cloud database services (AWS RDS, Google Cloud SQL)</li>
+<li>Simulate real-world scenarios and scalability challenges</li>
+</ul>
+<h2 id="continuous-learning">Continuous Learning&nbsp;<a class="anchor" href="#continuous-learning">&#xE732;</a></h2>
+<ul>
+<li>Follow database conferences and research papers</li>
+<li>Join database-focused communities (Reddit's r/database, Stack Overflow)</li>
+<li>Attend webinars and tech talks</li>
+<li>Keep up with emerging database technologies and research</li>
+</ul>
+<h2 id="recommended-learning-sequence">Recommended Learning Sequence:&nbsp;<a class="anchor" href="#recommended-learning-sequence">&#xE732;</a></h2>
+<ol>
+<li>Start with foundational concepts</li>
+<li>Deep dive into relational databases</li>
+<li>Learn SQL thoroughly</li>
+<li>Study database design principles</li>
+<li>Explore advanced concepts</li>
+<li>Implement practical projects</li>
+<li>Learn performance optimization</li>
+<li>Experiment with different database systems</li>
+</ol>
+<h2 id="pro-tips">Pro Tips:&nbsp;<a class="anchor" href="#pro-tips">&#xE732;</a></h2>
+<ul>
+<li>Don't just read theory—implement everything</li>
+<li>Build projects that challenge your understanding</li>
+<li>Experiment with different database systems</li>
+<li>Learn about database internals and how they actually work</li>
+<li>Understand trade-offs between different database technologies</li>
+<li>This roadmap provides a structured approach to mastering database systems. Adjust the pace and depth according to your
+learning style and existing knowledge.</li>
+<li>The key is consistent practice and hands-on implementation.</li>
+</ul>
+<hr />
+<p>Built with ♡ by [@mos3abof](https://mosa</p>
+
+    
+        </div>
+
+    </article>
+</main>
+
+<script type="text/javascript" src="https://dev.teachyourselfdb.com/js.js" defer></script>
+
+</body>
+</html>

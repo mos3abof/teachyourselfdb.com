@@ -1,24 +1,124 @@
 +++
-title = "index"
+title = "Teach Yourself Database Systems"
 insert_anchor_links = "right"
 +++
 
-## An easy way to create a document library for your project
+# Teach Yourself Database Systems
 
-Demo: [https://easydocs.codeandmedia.com/](https://easydocs.codeandmedia.com/)
+A raw draft roadmap to diving deep into database systems. This is a work in progress, and is subject to a lot of
+changes.
 
-This theme for [Zola](https://getzola.org) (static site engine) helps you build and publish your project docs easily and fast. Zola is just one binary that outputs html-pages and additional static assets after building your docs written in Markdown. Thus, you can take the theme, your md-files, Zola and gain flexible and simple website for documentation. 
+## Foundational Concepts
 
-### Step-by-step
+- Start with understanding the basic principles of database management systems (DBMS)
+- Learn about data models: relational, document, key-value, graph, and columnar models
+- Study fundamental database design concepts, including normalization and data integrity
 
-As you may have heard Zola is quite flexible :) So, the scenario below is one of hundreds possible ways to make things done, feel free to find your best. Also, Zola provides their own mechanism to install and use themes, see [the docs](https://www.getzola.org/documentation/themes/installing-and-using-themes/). 
+## Relational Databases Deep Dive
 
-1. Fork the repo and replace demo-content inside content folder with yours. But take a look to _index.md files. It contains `title` and when you want to have anchor right of your headers add `insert_anchor_links = "right"` to each index. `theme.toml`, screenshot and readme may be deleted too. 
-2. Inside `config.toml` change URL and title on your own. In extra section you can specify path to your GitHub API for version below the logo on nav, favicon and logo itself. Or just remove the lines if you don't need it. Also, you can configure or turn on some additional settings related to Zola. [Specification is here](https://www.getzola.org/documentation/getting-started/configuration/).
-3. In sass/_variables.scss you may change font, color or backgound if you want. 
-4. Almost done. Now, you should decide how you want to build and where will be hosted your website. You can build it locally and upload to somewhere. Or build in GitHub Actions and host on GitHub Pages / Netlify / CloudFlare Pages / AnyS3CloudStorage. [Howto for GitHub Pages](https://www.getzola.org/documentation/deployment/github-pages/). [My example](https://github.com/o365hq/o365hq.com/blob/main/.github/workflows/main.yml) of GitHub workflow with 2-steps build (the first checks for links and spelling errors, the second uploads to Azure). [Dockerfile](https://github.com/codeandmedia/zola_docsascode_theme/blob/master/Dockerfile) to make Docker image.
+- Master SQL in depth (advanced querying, window functions, complex joins)
+- Study relational algebra and relational calculus
+- Learn about B-tree and indexing strategies
+- Learn about LSM trees
+- Understand ACID properties and transaction management
+- Explore query optimization techniques
 
-Enjoy your docs!
+## Database Design
 
-* _Icons: [Office UI Fabric Icons](https://uifabricicons.azurewebsites.net/)_
-* _Copy-code-button: [Aaron Luna](https://aaronluna.dev/blog/add-copy-button-to-code-blocks-hugo-chroma/)_
+- Learn entity-relationship (ER) modeling
+- Practice database schema design
+- Study normalization forms (1NF, 2NF, 3NF, BCNF)
+- Understand denormalization and when to apply it
+
+## Advanced Database Concepts
+
+- Distributed database systems
+- Sharding and horizontal scaling
+- Replication and consistency models
+- CAP theorem
+- NoSQL databases and their use cases
+- NewSQL and hybrid database approaches
+
+## Performance and Optimization
+
+- Query performance tuning
+- Indexing strategies
+- Caching mechanisms
+- Database benchmarking
+- Understanding execution plans
+- Profiling and optimization techniques
+
+## Practical Implementation
+
+Choose 2-3 database systems to deeply learn
+
+- PostgreSQL (for advanced relational features)
+- MySQL / MariaDB
+- MongoDB (for document databases)
+- Cassandra (for wide-column stores)
+- Redis (for key-value stores)
+
+## Emerging Technologies
+
+Learn about:
+
+- Time-series databases
+- Graph databases
+- In-memory databases
+- Blockchain databases
+- Machine learning-integrated databases
+
+## Recommended Learning Resources
+
+### Books:
+
+- "Designing Data-Intensive Applications" by Martin Kleppmann
+- "Database System Concepts" by Silberschatz, Korth, and Sudarshan
+- "Principles of Database Systems" by Ullman and Widom
+
+### Online Courses:
+
+- Stanford's Database course on Coursera
+- Carnegie Mellon's Advanced Database Systems course
+- MIT's Database Systems course on edX
+
+## Hands-on Practice
+
+- Build personal projects
+- Contribute to open-source database projects
+- Set up your own database infrastructure
+- Practice with cloud database services (AWS RDS, Google Cloud SQL)
+- Simulate real-world scenarios and scalability challenges
+
+## Continuous Learning
+
+- Follow database conferences and research papers
+- Join database-focused communities (Reddit's r/database, Stack Overflow)
+- Attend webinars and tech talks
+- Keep up with emerging database technologies and research
+
+## Recommended Learning Sequence:
+
+1. Start with foundational concepts
+2. Deep dive into relational databases
+3. Learn SQL thoroughly
+4. Study database design principles
+5. Explore advanced concepts
+6. Implement practical projects
+7. Learn performance optimization
+8. Experiment with different database systems
+
+## Pro Tips:
+
+- Don't just read theory—implement everything
+- Build projects that challenge your understanding
+- Experiment with different database systems
+- Learn about database internals and how they actually work
+- Understand trade-offs between different database technologies
+- This roadmap provides a structured approach to mastering database systems. Adjust the pace and depth according to your
+learning style and existing knowledge.
+- The key is consistent practice and hands-on implementation.
+
+---
+
+Built with ♡ by [@mos3abof](https://mosa
